@@ -1,4 +1,4 @@
-This basic NodeJs API allows users to scrap data from websites and store it in MongoDB.
+This basic NodeJs API allows users to scrape data from websites and store it in MongoDB.
 
 env variables used:
 
