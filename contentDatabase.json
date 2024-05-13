@@ -1,0 +1,303 @@
+[
+  {
+    "url": "https://sebalp.tech/",
+    "content": {
+      "images": [
+        "https://sebalp.tech//_next/image?url=%2Fportflogo.png&w=128&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fhcpc.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Flogin2.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fuserscpc.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fhcpc.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Flogin2.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fuserscpc.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fhcpc.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Flogin2.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fuserscpc.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fdashb2.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fstudents2.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Foffers2.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fstudlist2.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Facce2.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fdashb2.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fstudents2.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Foffers2.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fstudlist2.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Facce2.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fdashb2.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fstudents2.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Foffers2.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fstudlist2.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Facce2.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fdashbmern.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fsna1.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fao.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Frentfront.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fbookingf.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fmodern.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fbudget.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fchat.png&w=3840&q=75",
+        "https://sebalp.tech//_next/image?url=%2Fnewmovies.png&w=3840&q=75"
+      ],
+      "videos": [],
+      "writtenContent": [
+        "Full-Stack Developer",
+        "Front-End Developer (May 2023 - September 2023)",
+        "Front-End Developer (September 2023 - December 2023)"
+      ]
+    },
+    "imagesExifMetadataMap": {
+      "https://sebalp.tech//_next/image?url=%2Fportflogo.png&w=128&q=75": {
+        "Image Height": {
+          "value": 80,
+          "description": "80px"
+        },
+        "Image Width": {
+          "value": 128,
+          "description": "128px"
+        },
+        "FileType": {
+          "value": "png",
+          "description": "PNG"
+        }
+      },
+      "https://sebalp.tech//_next/image?url=%2Foffers2.png&w=3840&q=75": {
+        "Image Height": {
+          "value": 750,
+          "description": "750px"
+        },
+        "Image Width": {
+          "value": 1398,
+          "description": "1398px"
+        },
+        "FileType": {
+          "value": "png",
+          "description": "PNG"
+        }
+      },
+      "https://sebalp.tech//_next/image?url=%2Fstudents2.png&w=3840&q=75": {
+        "Image Height": {
+          "value": 750,
+          "description": "750px"
+        },
+        "Image Width": {
+          "value": 1398,
+          "description": "1398px"
+        },
+        "FileType": {
+          "value": "png",
+          "description": "PNG"
+        }
+      },
+      "https://sebalp.tech//_next/image?url=%2Fsna1.png&w=3840&q=75": {
+        "Image Height": {
+          "value": 735,
+          "description": "735px"
+        },
+        "Image Width": {
+          "value": 1423,
+          "description": "1423px"
+        },
+        "FileType": {
+          "value": "png",
+          "description": "PNG"
+        }
+      },
+      "https://sebalp.tech//_next/image?url=%2Fdashbmern.png&w=3840&q=75": {
+        "Image Height": {
+          "value": 739,
+          "description": "739px"
+        },
+        "Image Width": {
+          "value": 1423,
+          "description": "1423px"
+        },
+        "FileType": {
+          "value": "png",
+          "description": "PNG"
+        }
+      },
+      "https://sebalp.tech//_next/image?url=%2Fstudlist2.png&w=3840&q=75": {
+        "Image Height": {
+          "value": 743,
+          "description": "743px"
+        },
+        "Image Width": {
+          "value": 1410,
+          "description": "1410px"
+        },
+        "FileType": {
+          "value": "png",
+          "description": "PNG"
+        }
+      },
+      "https://sebalp.tech//_next/image?url=%2Fmodern.png&w=3840&q=75": {
+        "Image Height": {
+          "value": 732,
+          "description": "732px"
+        },
+        "Image Width": {
+          "value": 1424,
+          "description": "1424px"
+        },
+        "FileType": {
+          "value": "png",
+          "description": "PNG"
+        }
+      },
+      "https://sebalp.tech//_next/image?url=%2Fao.png&w=3840&q=75": {
+        "Image Height": {
+          "value": 735,
+          "description": "735px"
+        },
+        "Image Width": {
+          "value": 1423,
+          "description": "1423px"
+        },
+        "FileType": {
+          "value": "png",
+          "description": "PNG"
+        }
+      },
+      "https://sebalp.tech//_next/image?url=%2Fuserscpc.png&w=3840&q=75": {
+        "Image Height": {
+          "value": 729,
+          "description": "729px"
+        },
+        "Image Width": {
+          "value": 1431,
+          "description": "1431px"
+        },
+        "FileType": {
+          "value": "png",
+          "description": "PNG"
+        }
+      },
+      "https://sebalp.tech//_next/image?url=%2Fhcpc.png&w=3840&q=75": {
+        "Image Height": {
+          "value": 729,
+          "description": "729px"
+        },
+        "Image Width": {
+          "value": 1431,
+          "description": "1431px"
+        },
+        "FileType": {
+          "value": "png",
+          "description": "PNG"
+        }
+      },
+      "https://sebalp.tech//_next/image?url=%2Facce2.png&w=3840&q=75": {
+        "Image Height": {
+          "value": 747,
+          "description": "747px"
+        },
+        "Image Width": {
+          "value": 1406,
+          "description": "1406px"
+        },
+        "FileType": {
+          "value": "png",
+          "description": "PNG"
+        }
+      },
+      "https://sebalp.tech//_next/image?url=%2Fdashb2.png&w=3840&q=75": {
+        "Image Height": {
+          "value": 750,
+          "description": "750px"
+        },
+        "Image Width": {
+          "value": 1398,
+          "description": "1398px"
+        },
+        "FileType": {
+          "value": "png",
+          "description": "PNG"
+        }
+      },
+      "https://sebalp.tech//_next/image?url=%2Flogin2.png&w=3840&q=75": {
+        "Image Height": {
+          "value": 729,
+          "description": "729px"
+        },
+        "Image Width": {
+          "value": 1431,
+          "description": "1431px"
+        },
+        "FileType": {
+          "value": "png",
+          "description": "PNG"
+        }
+      },
+      "https://sebalp.tech//_next/image?url=%2Fbudget.png&w=3840&q=75": {
+        "Image Height": {
+          "value": 749,
+          "description": "749px"
+        },
+        "Image Width": {
+          "value": 1118,
+          "description": "1118px"
+        },
+        "FileType": {
+          "value": "png",
+          "description": "PNG"
+        }
+      },
+      "https://sebalp.tech//_next/image?url=%2Frentfront.png&w=3840&q=75": {
+        "Image Height": {
+          "value": 735,
+          "description": "735px"
+        },
+        "Image Width": {
+          "value": 1423,
+          "description": "1423px"
+        },
+        "FileType": {
+          "value": "png",
+          "description": "PNG"
+        }
+      },
+      "https://sebalp.tech//_next/image?url=%2Fchat.png&w=3840&q=75": {
+        "Image Height": {
+          "value": 749,
+          "description": "749px"
+        },
+        "Image Width": {
+          "value": 1118,
+          "description": "1118px"
+        },
+        "FileType": {
+          "value": "png",
+          "description": "PNG"
+        }
+      },
+      "https://sebalp.tech//_next/image?url=%2Fbookingf.png&w=3840&q=75": {
+        "Image Height": {
+          "value": 735,
+          "description": "735px"
+        },
+        "Image Width": {
+          "value": 1423,
+          "description": "1423px"
+        },
+        "FileType": {
+          "value": "png",
+          "description": "PNG"
+        }
+      },
+      "https://sebalp.tech//_next/image?url=%2Fnewmovies.png&w=3840&q=75": {
+        "Image Height": {
+          "value": 749,
+          "description": "749px"
+        },
+        "Image Width": {
+          "value": 1118,
+          "description": "1118px"
+        },
+        "FileType": {
+          "value": "png",
+          "description": "PNG"
+        }
+      }
+    }
+  }
+]
