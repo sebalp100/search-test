@@ -39,6 +39,11 @@ export const crawl = async (req, res) => {
     }
   };
 
+  const detectChanges = (previousData, currentData) => {
+    const hasChanged = previousData.textInfo !== currentData.textInfo || previousData.content !== currentData.content;
+    return hasChanged;
+  };
+
 
 
   try {
@@ -78,7 +83,7 @@ export const crawl = async (req, res) => {
 
       const createdURL = await Url.create({
         url,
-        images: createdImages, // check to save image ulrs intead of object ids
+        images: createdImages,
         videos: createdVideos,
         textInfo: createdTextInfo,
         createdBy: userId,
