@@ -1,8 +1,4 @@
 import express from 'express';
-import axios from 'axios';
-import * as cheerio from 'cheerio';
-import ExifReader from 'exifreader';
-import fs from 'fs';
 import cookieParser from 'cookie-parser';
 import 'dotenv/config';
 import helmet from 'helmet';

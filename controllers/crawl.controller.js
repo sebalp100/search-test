@@ -7,6 +7,7 @@ import Video from '../models/Videos.js'
 import TextInfo from '../models/TextInfo.js'
 import User from '../models/User.js';
 import ImageMetadata from '../models/ImageMetadata.js';
+import schedule from "node-schedule";
 
 export const crawl = async (req, res) => {
   const { url, userId } = req.body;
@@ -39,13 +40,6 @@ export const crawl = async (req, res) => {
     }
   };
 
-  const detectChanges = (previousData, currentData) => {
-    const hasChanged = previousData.textInfo !== currentData.textInfo || previousData.content !== currentData.content;
-    return hasChanged;
-  };
-
-
-
   try {
     const user = await User.findById(userId);
     if (user.urls.includes(url)) {
@@ -56,7 +50,9 @@ export const crawl = async (req, res) => {
     if (content) {
       const imagesExifMetadataMap = {};
       const createdImages = await Promise.all(content.images.map(async (imageUrl) => {
+
         const image = await Image.create({ imageUrl });
+
         const exifMetadata = await getImageExifMetadata(imageUrl);
         if (exifMetadata) {
           const imageMetadata = await ImageMetadata.create({
@@ -65,19 +61,19 @@ export const crawl = async (req, res) => {
             imageWidth: exifMetadata['Image Width'].description,
             fileType: exifMetadata['FileType'].description,
           });
-          imagesExifMetadataMap[image._id] = imageMetadata;
         }
-        return image._id;
+
+        return imageUrl;
       }));
 
       const createdVideos = await Promise.all(content.videos.map(async (videoUrl) => {
         const video = await Video.create({ videoUrl });
-        return video._id;
+        return videoUrl;
       }));
 
       const createdTextInfo = await Promise.all(content.textInfo.map(async (info) => {
         const textInfo = await TextInfo.create({ content: info });
-        return textInfo._id;
+        return info;
       }));
 
 
@@ -100,5 +96,28 @@ export const crawl = async (req, res) => {
   } catch (error) {
     console.error('Error saving scrapped data:', error);
     res.status(500).json({ message: 'Failed to save scrapped data' });
+  }
+};
+
+export const loadContentByUrl = async (req, res) => {
+  const { url } = req.body;
+  try {
+    const foundUrl = await Url.findOne(url);
+
+    if (!foundUrl) {
+      return res.status(404).json({ message: 'URL not found' });
+    }
+
+    const { images, videos, textInfo } = foundUrl;
+
+    const content = {
+      images,
+      videos,
+      textInfo,
+    };
+
+    return content;
+  } catch (error) {
+    console.error('Error loading content by URL:', error);
   }
 };

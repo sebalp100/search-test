@@ -2,9 +2,9 @@ import mongoose from "mongoose";
 
 const urlSchema = new mongoose.Schema({
   url: String,
-  images: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Image' }],
-  videos: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Video' }],
-  textInfo: [{ type: mongoose.Schema.Types.ObjectId, ref: 'TextInfo' }],
+  images: [String],
+  videos: [String],
+  textInfo: [String],
   createdBy: { type: mongoose.Schema.Types.ObjectId, ref: 'User' }
 }, { timestamps: true });
 
